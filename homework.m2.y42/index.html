@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Домашка</title>
+	</head>
+	<body>
+		<form class="form">
+			<fieldset class="group">
+				<legend class="leg">Ваши личные данные</legend>
+				<label class="lbl" for="name">
+					<div class="pop">Ваше имя</div>
+					<input
+						class="mess"
+						id="name"
+						type="text"
+						placeholder="Имя"
+						required
+					/>
+				</label>
+				<label class="lbl" for="date">
+					<div class="pop">Ваш возраст</div>
+					<input
+						class="mess"
+						id="date"
+						type="number"
+						placeholder="Возраст"
+						inputmode="numeric"
+						required
+					/>
+				</label>
+				<label class="lbl" for="tel">
+					<div class="pop">Ваш номер телефона</div>
+					<input
+						class="mess"
+						id="tel"
+						type="tel"
+						inputmode="tel"
+						placeholder="Номер телефона"
+						required
+					/>
+				</label>
+				<label class="lbl" for="email">
+					<div class="pop">Ваша почта</div>
+					<input
+						class="mess"
+						id="email"
+						type="email"
+						inputmode="email"
+						placeholder="Почта"
+						required
+					/>
+				</label>
+				<label class="lbl" for="info">
+					<div class="pop">Сообщение</div>
+					<textarea
+						class="mess"
+						name="info"
+						id="info"
+						placeholder="Ваше сообщение"
+					></textarea>
+				</label>
+			</fieldset>
+			<fieldset class="group">
+				<label class="lbl" for="rule">
+					<input type="checkbox" id="rule" required />
+					Я принимаю правила
+				</label>
+				<div><button>Отправить</button></div>
+			</fieldset>
+		</form>
+	</body>
+</html>

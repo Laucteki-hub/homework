@@ -1,0 +1,55 @@
+body {
+	box-sizing: border-box;
+	background-color: #343333;
+	margin: 10px;
+	font-family: sans-serif;
+}
+
+.form {
+	border: 2px solid #fff;
+	border-radius: 10px;
+	width: 300px;
+	background-color: #565454;
+	color: #fff;
+	padding: 10px;
+}
+
+.group {
+	border: none;
+	padding: 0px;
+}
+.leg,
+.lbl {
+	margin: 10px;
+	display: inline-block;
+}
+
+.leg {
+	font-weight: 700;
+}
+
+.pop {
+	margin-bottom: 4px;
+}
+
+.mess {
+	width: 200px;
+	border-radius: 5px;
+}
+
+textarea {
+	resize: vertical;
+	max-height: 150px;
+}
+
+button,
+#rule {
+	cursor: pointer;
+}
+
+button {
+	margin-left: 10px;
+	background-color: #848181;
+	color: #fff;
+	width: 100px;
+}
